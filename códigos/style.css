@@ -1,0 +1,154 @@
+.barra {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 120px;
+}
+
+.logo {
+    position: fixed;
+    zoom: 0.239;
+    left: 20%;
+}
+
+#produtos {
+    font-family: 'Raleway';
+    color: white;
+}
+
+.produtos {
+    align-items: center;
+        }
+        ul{
+            width: 150px; /* Tamanho da lista principal */
+            /*margin: 0 auto;  Para centralizar na página */
+            margin-left: auto;
+            list-style: none;    
+        }
+        ul li{
+            background-color: black;
+        }
+        ul li a{
+            display: block; /* Renderiza o elemento HTML como bloco, tal como os parágrafos e os cabeçalhos o são */
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: xx-large;
+        }
+        ul li:hover > a{ /* Quando passarmos o mouse sobre a LI colocamos estilo no A */
+            border-radius: 12px;
+            color: white;
+        }
+
+        ul li ul{
+            display: none;
+            position: absolute;
+        }
+
+        ul li:hover ul{ /* Quando passar o mouse sobre a LI aparecerá o menu filho */
+            width: 180px; /* Tamanho do menu filho */
+            display: block; 
+        }
+        ul li ul li{
+            width: 180px;
+            cursor: pointer;
+        }
+        ul li ul li a{
+            font-size: large;
+            text-align: center;
+            font-family: 'Raleway';
+        }
+        ul li ul li:hover > a{
+            background-color: #04a243;
+            border-radius: 12px;
+            color: #FFFFFF;
+            font-size: x-large;
+        }
+        ul li ul li ul li{
+            display: none;
+        }
+
+        ul li ul li ul{
+            top: 0; /* Para deixar o sub-menu na mesma linha do menu pai */
+        }
+        ul li ul li:hover ul li{
+            display: block;
+            width: 130px;
+            left: 77.8%; /* Para deixar o sub-menu ao lado do menu pai */
+        }
+
+#tenis {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.sobre {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: xx-large;
+    width: 150px;
+    text-align: center;
+}
+
+.suporte {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: xx-large;
+    width: 150px;
+    text-align: center;
+}
+
+.barra2 {
+    top: 0px;
+    right: 0;
+    width: auto;
+    height: 120px;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.login a {
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+}
+
+.carrinho img {
+    margin-right: 19px;
+    height: 30px;
+    width: 30px;
+}
+
+.carrinho a {
+    margin-left: 22px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: x-large;
+    color: #FFFFFF;
+}
+
+.carrinho {
+    display: flex;
+    border-radius: 12px;
+    width: 170px;
+    margin-left: auto;
+    margin-top: 5px;
+    background: linear-gradient(270deg, #2CBF67 0%, #174D2C 37.08%);
+    border: 1px solid #2CBF67;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra3 {
+    height: 35px;
+    align-content: center;
+}
