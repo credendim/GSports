@@ -152,3 +152,7 @@
     height: 35px;
     align-content: center;
 }
+
+.barra3 a href {
+    text-decoration: none;
+}
