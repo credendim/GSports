@@ -1,0 +1,88 @@
+
+body {
+  background-image: url('img/foto\ de\ fundo\ cadastro.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.container h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.container input[type=text], .container input[type=email], .container input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+ 
+  box-sizing: border-box;
+  border-radius: 10px;
+  color:rgb(0, 0, 0) ;
+  border: 1px solid #ccc;
+  background-color: #ffffff3c; 
+}
+
+
+.container label {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.container input[type=checkbox] {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.container button {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+
+.termo{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 80px;
+
+
+.butao{
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 80px;
+}
+.butao {
+align-items: center;
+margin-bottom: 5px;
+margin-left: 80px;
+color: #ffffff;
+}
+}
+
+.conta1 {
+  text-align: center;
+  color: white;
+}
+
+input::placeholder {
+  color: rgb(0, 0, 0); /* Altere para a cor desejada */
+}
