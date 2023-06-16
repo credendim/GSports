@@ -36,13 +36,20 @@ header > h1 {
 .produto {
     font-size: small;
     font-weight: bolder;
-    margin-left: 5px;
-    margin-right: 5px;
     width: 22.3vw;
     height: auto;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 13px;
+
+}
+
+.produto img {
+    margin-top: 20px;
 }
 
 a {
@@ -63,11 +70,6 @@ a:hover {
 .produto > a > img {
     width: 12vw;
     height: 12vw;
-}
-
-.produto > p {
-    margin-bottom: 50px;
-    margin-top: -10px;
 }
 
 .custo {
