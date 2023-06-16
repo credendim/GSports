@@ -93,12 +93,20 @@
     text-align: center;
 }
 
+.sobre :hover {
+    cursor: pointer;
+}
+
 .suporte {
     color: #FFFFFF;
     font-family: 'Raleway';
     font-size: xx-large;
     width: 150px;
     text-align: center;
+}
+
+.suporte :hover {
+    cursor: pointer;
 }
 
 .barra2 {
@@ -153,6 +161,11 @@
     align-content: center;
 }
 
-.barra3 a href {
+.barra3 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+.login a :hover {
+    cursor: pointer;
 }
