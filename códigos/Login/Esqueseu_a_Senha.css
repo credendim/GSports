@@ -1,0 +1,55 @@
+
+body {
+    background-image: url('img/fundoEAS.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.container h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.container p {
+  text-align: center;
+}
+
+.container input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: #ffffff3c; 
+  border-radius: 10px;
+}
+
+.container button {
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+input::placeholder {
+    color: rgb(0, 0, 0); /* Altere para a cor desejada */
+  }
+  
