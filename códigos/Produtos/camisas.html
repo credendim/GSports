@@ -6,12 +6,61 @@
     <title>Produtos - Camisas</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <h1>GSzada</h1>
+        <div class="headerbarra">
+            <!-- Div da barra inteira -->
+            <div class="headerlogo"><img src="img/G.Sports.png"></div>
+            <!-- div do logo, ela abre e fecha aqui -->
+                <div class="headerbarra2">
+                    <div class="headerprodutos">
+                        <ul>
+                        <li>
+                            <a id="headerprodutos" href="style.css">Produtos</a>
+                            <!-- lista Pai -->
+                            <ul>
+                                <!-- lista filho -->
+                                <li><a href="../Camisas/camisas.html">Camisas</a></li>
+                                <li><a href="../Bolas/bolas.html">Bolas</a></li>
+                                <li><a href="../Acessorios/acessorios.html">Acessórios</a></li>
+                                <li id="headertenis"><a href="#">Tênis</a></li>
+                                <!-- O id esta sendo ultilizado para o border-radius -->
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="headersobre">
+                        <a href="#">Sobre</a>
+                    </div>
+                    <div class="headersuporte">
+                        <a href="#">Suporte</a>
+                    </div>
+                </div>
+                <div class="headerbarra3">
+                <!-- parte do carrinho de compra/ login/ cadatre-se -->
+                <div class="headerlogin">
+                    <a href="../Login/Login.html">Login</a>
+                    <!-- texto do login -->
+                    <a>|</a>
+                    <a href="../Login/cadastro.html">Cadastre-se</a>
+                    <!-- texto do cadastre-se -->
+                </div>
+                <a id="headerbotao" href="../Login/Esqueseu_a_Senha.HTML">
+                <div class="headercarrinho">
+                    <!-- div do botao do carrinho de compra -->
+                    <p>Carrinho</p>
+                    <!-- texto do carrinho de compra -->
+                    <img src="img/shopping_cart_FILL1_wght700_GRAD0_opsz48.png">
+                    <!-- icone do carrinho de compra -->
+                </div>
+                </div>
+                </a>
+        </div>
     </header>
-
     <h1 align="center" center>Camisas</h1>
 
     <div class="main-div">
