@@ -194,8 +194,16 @@ body {
     cursor: pointer;
 }
 
+/* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
+
+#titulo {
+    margin-top: 150px;
+    font-family: 'Raleway';
+    font-size: xx-large;
+}
+
 .main-div {
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
