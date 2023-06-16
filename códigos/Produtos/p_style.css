@@ -1,3 +1,4 @@
+/* ---------------------------------STYLE DO PRODUTOS.HTML-------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
@@ -200,19 +201,21 @@ body {
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
 #titulo {
-    margin-top: 150px;
+    margin-top: 0px;
+    margin-bottom: 0;
     font-family: 'Raleway';
     font-size: xx-large;
 }
 
 .main-div {
-    margin-top: 40px;
+    margin-top:150px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 9vw;
     padding-right: 9vw;
+    
 }
 
 /* Div das colunas */
@@ -221,13 +224,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 /* Div dos produtos */
 .produto {
     font-size: small;
     font-weight: bolder;
-    width: 22.3vw;
+    width: 17.3vw;
     height: auto;
     margin-bottom: 10px;
     justify-content: center;
