@@ -1,3 +1,4 @@
+/* ---------------------------------STYLE DO PRODUTOS.HTML-------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
@@ -151,8 +152,8 @@ body {
 
 .headercarrinho img {
     margin-right: 19px;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 .headercarrinho a {
@@ -174,18 +175,13 @@ body {
 .headercarrinho {
     display: flex;
     border-radius: 12px;
-    height: 30px;
-    width: 140px;
-    margin-left: 60px;
+    width: 170px;
+    margin-left: auto;
     margin-top: 5px;
     background: linear-gradient(270deg, #2CBF67 0%, #174D2C 37.08%);
     border: 1px solid #2CBF67;
     justify-content: space-between;
     align-items: center;
-}
-
-.headercarrinho p {
-    font-size: large;
 }
 
 .headerbarra3 {
@@ -201,22 +197,25 @@ body {
 .headerlogin a :hover {
     cursor: pointer;
 }
+
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
 #titulo {
-    margin-top: 150px;
+    margin-top: 0px;
+    margin-bottom: 0;
     font-family: 'Raleway';
     font-size: xx-large;
 }
 
 .main-div {
-    margin-top: 40px;
+    margin-top:150px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 9vw;
     padding-right: 9vw;
+    
 }
 
 /* Div das colunas */
@@ -225,13 +224,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 /* Div dos produtos */
 .produto {
     font-size: small;
     font-weight: bolder;
-    width: 22.3vw;
+    width: 17.3vw;
     height: auto;
     margin-bottom: 10px;
     justify-content: center;
@@ -254,7 +254,7 @@ a {
 
 a:hover { 
     text-decoration: underline; 
-    color: #008433; /* Define a cor desejada para os links ao passar o mouse */ 
+    color: #ff0000; /* Define a cor desejada para os links ao passar o mouse */ 
 }
 
 .produto > a > p{
