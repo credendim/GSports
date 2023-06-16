@@ -209,6 +209,7 @@ body {
 
 #ver-mais {
     margin-top: -40px;
+    text-decoration: underline;
 }
 
 .main-div {
@@ -258,7 +259,7 @@ a {
 
 a:hover { 
     text-decoration: underline; 
-    color: #ff0000; /* Define a cor desejada para os links ao passar o mouse */ 
+    color: #008433; /* Define a cor desejada para os links ao passar o mouse */ 
 }
 
 .produto > a > p{
