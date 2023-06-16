@@ -164,6 +164,10 @@ body {
     color: #FFFFFF;
 }
 
+.headercarrinho a {
+    text-decoration: none;
+}
+
 .headercarrinho p {
     margin-left: 22px;
     text-align: center;
@@ -197,6 +201,13 @@ body {
 .headerlogin a :hover {
     cursor: pointer;
 }
+
+.headerbarra a:hover {
+    text-decoration: underline; 
+}
+
+
+
 
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -257,7 +268,7 @@ a {
     color: #000000; /* Define a cor desejada para os links não visitados */ 
 } 
 
-#produto > a:hover { 
+.produto > a:hover { 
     text-decoration: underline; 
     color: #008433; /* Define a cor desejada para os links ao passar o mouse */ 
 }
