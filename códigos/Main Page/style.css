@@ -40,12 +40,15 @@
         }
         ul li:hover > a{ /* Quando passarmos o mouse sobre a LI colocamos estilo no A */
             border-radius: 12px;
-            color: white;
+            text-decoration: underline;
+            color:#008433;
         }
 
         ul li ul{
             display: none;
-            position: absolute;
+            position: fixed;
+            left: 520px;
+            top: 90px;
         }
 
         ul li:hover ul{ /* Quando passar o mouse sobre a LI aparecerá o menu filho */
@@ -64,7 +67,7 @@
         ul li ul li:hover > a{
             background-color: #04a243;
             border-radius: 12px;
-            color: #FFFFFF;
+            color: white;
             font-size: larger;
         }
         ul li ul li ul li{
@@ -100,6 +103,7 @@
 
 .headersobre :hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .headersuporte {
@@ -116,6 +120,7 @@
 
 .headersuporte :hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .headerbarra2 {
@@ -137,6 +142,10 @@
     margin-left: 10px;
     color: #FFFFFF;
     font-family: 'Raleway';
+}
+
+.headerlogin :hover {
+    text-decoration: underline;
 }
 
 .headercarrinho img {
