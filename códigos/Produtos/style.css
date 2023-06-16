@@ -50,12 +50,15 @@ body {
         }
         ul li:hover > a{ /* Quando passarmos o mouse sobre a LI colocamos estilo no A */
             border-radius: 12px;
-            color: white;
+            text-decoration: underline;
+            color:#008433;
         }
 
         ul li ul{
             display: none;
-            position: absolute;
+            position: fixed;
+            left: 520px;
+            top: 90px;
         }
 
         ul li:hover ul{ /* Quando passar o mouse sobre a LI aparecerá o menu filho */
@@ -74,7 +77,7 @@ body {
         ul li ul li:hover > a{
             background-color: #04a243;
             border-radius: 12px;
-            color: #FFFFFF;
+            color: white;
             font-size: larger;
         }
         ul li ul li ul li{
@@ -110,6 +113,7 @@ body {
 
 .headersobre :hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .headersuporte {
@@ -126,6 +130,7 @@ body {
 
 .headersuporte :hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .headerbarra2 {
@@ -147,6 +152,10 @@ body {
     margin-left: 10px;
     color: #FFFFFF;
     font-family: 'Raleway';
+}
+
+.headerlogin :hover {
+    text-decoration: underline;
 }
 
 .headercarrinho img {
@@ -252,7 +261,7 @@ a {
     color: #000000; /* Define a cor desejada para os links não visitados */ 
 } 
 
-a:hover { 
+.produto a:hover { 
     text-decoration: underline; 
     color: #008433; /* Define a cor desejada para os links ao passar o mouse */ 
 }
