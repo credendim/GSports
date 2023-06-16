@@ -1,4 +1,4 @@
-.barra {
+.headerbarra {
     background-color: black;
     position: fixed;
     display: flex;
@@ -8,18 +8,18 @@
     height: 120px;
 }
 
-.logo {
+.headerlogo {
     position: fixed;
     zoom: 0.239;
     left: 20%;
 }
 
-#produtos {
+#headerprodutos {
     font-family: 'Raleway';
     color: white;
 }
 
-.produtos {
+.headerprodutos {
     align-items: center;
         }
         ul{
@@ -65,7 +65,7 @@
             background-color: #04a243;
             border-radius: 12px;
             color: #FFFFFF;
-            font-size: x-large;
+            font-size: larger;
         }
         ul li ul li ul li{
             display: none;
@@ -80,12 +80,12 @@
             left: 77.8%; /* Para deixar o sub-menu ao lado do menu pai */
         }
 
-#tenis {
+#headertenis {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
 
-.sobre {
+.headersobre {
     color: #FFFFFF;
     font-family: 'Raleway';
     font-size: xx-large;
@@ -93,23 +93,32 @@
     text-align: center;
 }
 
-.sobre :hover {
+.headersobre a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.headersobre :hover {
     cursor: pointer;
 }
 
-.suporte {
-    color: #FFFFFF;
+.headersuporte {
     font-family: 'Raleway';
     font-size: xx-large;
     width: 150px;
     text-align: center;
 }
 
-.suporte :hover {
+.headersuporte a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.headersuporte :hover {
     cursor: pointer;
 }
 
-.barra2 {
+.headerbarra2 {
     top: 0px;
     right: 0;
     width: auto;
@@ -119,24 +128,24 @@
     align-items: center;
 }
 
-.login{
+.headerlogin{
     margin-top: 5px;
     margin-left: 40px;
 }
 
-.login a {
+.headerlogin a {
     margin-left: 10px;
     color: #FFFFFF;
     font-family: 'Raleway';
 }
 
-.carrinho img {
+.headercarrinho img {
     margin-right: 19px;
     height: 30px;
     width: 30px;
 }
 
-.carrinho a {
+.headercarrinho a {
     margin-left: 22px;
     text-align: center;
     font-family: 'Raleway';
@@ -144,7 +153,15 @@
     color: #FFFFFF;
 }
 
-.carrinho {
+.headercarrinho p {
+    margin-left: 22px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: x-large;
+    color: #FFFFFF;
+}
+
+.headercarrinho {
     display: flex;
     border-radius: 12px;
     width: 170px;
@@ -156,16 +173,20 @@
     align-items: center;
 }
 
-.barra3 {
+.headerbarra3 {
     height: 35px;
     align-content: center;
 }
 
-.barra3 a {
+.headerbarra3 a {
     text-decoration: none;
     cursor: pointer;
 }
 
-.login a :hover {
+.headerlogin a :hover {
     cursor: pointer;
+}
+
+body {
+    background: linear-gradient(180deg, #97CE99 0%, #FFFFFF 12.5%, #A0C6FF 24.81%, #FFFFFF 100%);
 }
