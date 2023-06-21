@@ -267,7 +267,7 @@ a {
 }
 
 .produto > a > p{
-    min-height: 40px;
+    min-height: 50px;
     font-size: 2.5vh;
 }
 
@@ -280,7 +280,7 @@ a {
     font-size: 3vh;
     color: white;
     font-weight: 400;
-    width: 130px;
+    width: 150px;
     background: linear-gradient(270deg, #2CBF67 0%, #174D2C 37.08%);
     mix-blend-mode: normal;
     border: 1px solid #2CBF67;
@@ -294,4 +294,75 @@ a {
 #preco:hover {
     zoom: 1.2;
     transition: zoom 0.75;
+}
+
+/* ------------------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer {
+  position: relative;
+  width: auto;
+  background: hsl(119, 83%, 37%);
+  min-height: 100px;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+  background-color:  hsl(119, 83%, 37%);
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  background-color: hsl(119, 83%, 37%);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color:hsl(119, 83%, 37%);
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  background-color:hsl(119, 83%, 37%);
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
 }

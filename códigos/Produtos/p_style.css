@@ -152,8 +152,8 @@ body {
 
 .headercarrinho img {
     margin-right: 19px;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 
 .headercarrinho a {
@@ -175,13 +175,18 @@ body {
 .headercarrinho {
     display: flex;
     border-radius: 12px;
-    width: 170px;
-    margin-left: auto;
+    width: 140px;
+    height: 30px;
+    margin-left: 60px;
     margin-top: 5px;
     background: linear-gradient(270deg, #2CBF67 0%, #174D2C 37.08%);
     border: 1px solid #2CBF67;
     justify-content: space-between;
     align-items: center;
+}
+
+.headercarrinho p {
+    font-size: large;
 }
 
 .headerbarra3 {
@@ -321,10 +326,12 @@ a {
 .menu {
   position: relative;
   display: flex;
+  width: auto;
   justify-content: center;
   align-items: center;
   margin: 0;
   flex-wrap: nowrap;
+  padding: 0;
 }
 
 .social-icon__item,
@@ -369,5 +376,3 @@ a {
   font-size: 1rem;
   font-weight: 300;
 }
-
-
