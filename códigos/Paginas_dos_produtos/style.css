@@ -241,10 +241,6 @@ body {
     height: 80px
 }
 
-.miniaturas img:hover {
-    
-}
-
 .info {
     display: flex;
     flex-direction: column;
