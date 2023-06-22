@@ -1,9 +1,26 @@
 body {
+  margin: 0;
   background-image: url('img/fotofundo.jpeg');
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
 }
+
+
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 51%, rgba(154,153,167,0) 100%);
+
+}
+
+.header img {
+  width: 100px;
+}
+
+/* ____________________________________________________________________________________________________________ */
 
 .container {
   width: 300px;
