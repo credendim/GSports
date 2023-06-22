@@ -9,8 +9,6 @@ body {
   width: 300px;
   margin: 150px auto;
   padding: 20px;
-  border-radius: 5px;
-  color: white; 
 }
 
 .container h1 {
@@ -42,6 +40,10 @@ body {
   border-radius: 10px;
 }
 
+.container .cadastro a {
+  color: #ffffff;
+}
+
 .container .forgot-password {
   text-align: center;
   margin-top: 10px;
@@ -55,7 +57,8 @@ body {
   text-align: center;
   color: #ffffff;
 }
+
 input::placeholder {
-  color: rgb(0, 0, 0); /* Altere para a cor desejada */
+  color: rgb(255, 255, 255); /* Altere para a cor desejada */
 }
 
