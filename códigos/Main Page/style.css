@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 30%;
+    z-index: 2;
 }
 
 .headerlogo {
@@ -211,10 +212,59 @@ body {
 }
 /* -------------------------------------------FIM DO HEADER----------------------------------------------- */
 
-.mainPage {
-    height: 1920px;
-}
+/* Barra de pesquisa */
 
+/* Baners */
+.slider {
+    width: 1000px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .slide {
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slide img {
+    width: 1000px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
 /* -------------------------------------INICIO DO FOOTER ------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
