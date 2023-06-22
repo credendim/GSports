@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 /*--------------------------------------------HEADER---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+header {
+    margin-bottom: 120px;
+}
+
 .headerbarra {
     background-color: black;
     position: fixed;
@@ -209,46 +213,49 @@
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
 body{
-    margin: 0 90px;
+    margin: 0;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-    background-color: white;
+    background: linear-gradient(180deg, #FFFFFF 0%, #7AFD80 100%);
     padding: 0;
 }   
 
-body > h1 {
-}
-
-
-  }
-.container {
+.main {
     display: flex;
+    flex-direction: row-reverse;
 }
 
-.barra{
-    flex: 1;
-    height: 2px;
-    background-color: black;
-}
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
+.logo {
+    height: fit-content;
+    width: fit-content;
+    padding-right: 9vw;
+    padding-top: 80px;
 }
 
-.barra {
-    height: 2px;
-    background-color: black;
+.logo img {
+    zoom: 0.5;
+}
+
+.text {
+    margin-left: 9vw;
+    margin-right: 4vw;
+    justify-content: center;
+}
+
+.text > p {
+    font-size: large;
 }
 
 /* ________________________________________________________________________________________________________________ */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
+footer {
+}
+
 .footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  margin-top: 100px;
   width: auto;
   background: black;
   min-height: 100px;

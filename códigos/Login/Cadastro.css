@@ -25,10 +25,9 @@ body {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
- 
   box-sizing: border-box;
   border-radius: 10px;
-  color:rgb(0, 0, 0) ;
+  color:white;
   border: 1px solid #ccc;
   background-color: #ffffff3c; 
 }
