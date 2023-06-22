@@ -6,7 +6,6 @@ body {
     font-family: Arial, sans-serif;
   }
 
-
 .container {
   width: 400px;
   margin: 0 auto;
@@ -28,6 +27,7 @@ body {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
+  color: white;
   display: inline-block;
   box-sizing: border-box;
   border: 1px solid #ccc;
@@ -50,6 +50,6 @@ body {
   opacity: 0.8;
 }
 input::placeholder {
-    color: rgb(0, 0, 0); /* Altere para a cor desejada */
+    color: white;
   }
   
