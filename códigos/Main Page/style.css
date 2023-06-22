@@ -1,3 +1,10 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #FFFFFF 5%, #7AFD80 95%);
+}
+
 .headerbarra {
     background-color: black;
     position: fixed;
@@ -5,12 +12,16 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 120px;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30%;
 }
 
 .headerlogo {
+    top: 5px;
     position: fixed;
-    zoom: 0.239;
+    zoom: 0.214;
     left: 20%;
 }
 
@@ -23,7 +34,7 @@
     align-items: center;
         }
         ul{
-            width: 150px; /* Tamanho da lista principal */
+            width: 150px;
             /*margin: 0 auto;  Para centralizar na página */
             margin-left: auto;
             list-style: none;    
@@ -40,15 +51,12 @@
         }
         ul li:hover > a{ /* Quando passarmos o mouse sobre a LI colocamos estilo no A */
             border-radius: 12px;
-            text-decoration: underline;
-            color:#008433;
+            color: white;
         }
 
         ul li ul{
             display: none;
-            position: fixed;
-            left: 520px;
-            top: 90px;
+            position: absolute;
         }
 
         ul li:hover ul{ /* Quando passar o mouse sobre a LI aparecerá o menu filho */
@@ -67,7 +75,7 @@
         ul li ul li:hover > a{
             background-color: #04a243;
             border-radius: 12px;
-            color: white;
+            color: #FFFFFF;
             font-size: larger;
         }
         ul li ul li ul li{
@@ -89,10 +97,10 @@
 }
 
 .headersobre {
+    width: 150px;
     color: #FFFFFF;
     font-family: 'Raleway';
     font-size: xx-large;
-    width: 150px;
     text-align: center;
 }
 
@@ -103,14 +111,13 @@
 
 .headersobre :hover {
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .headersuporte {
     font-family: 'Raleway';
     font-size: xx-large;
-    width: 150px;
     text-align: center;
+    justify-content: center;
 }
 
 .headersuporte a {
@@ -120,7 +127,6 @@
 
 .headersuporte :hover {
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .headerbarra2 {
@@ -142,10 +148,6 @@
     margin-left: 10px;
     color: #FFFFFF;
     font-family: 'Raleway';
-}
-
-.headerlogin :hover {
-    text-decoration: underline;
 }
 
 .headercarrinho img {
@@ -173,8 +175,8 @@
 .headercarrinho {
     display: flex;
     border-radius: 12px;
-    height: 30px;
     width: 140px;
+    height: 30px;
     margin-left: 60px;
     margin-top: 5px;
     background: linear-gradient(270deg, #2CBF67 0%, #174D2C 37.08%);
@@ -188,6 +190,9 @@
 }
 
 .headerbarra3 {
+    right: 20%;
+    position: fixed;
+    top: 5px;
     height: 35px;
     align-content: center;
 }
@@ -199,4 +204,79 @@
 
 .headerlogin a :hover {
     cursor: pointer;
+}
+
+.headerbarra a:hover {
+    text-decoration: underline; 
+}
+/* -------------------------------------------FIM DO HEADER----------------------------------------------- */
+/* -------------------------------------INICIO DO FOOTER ------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer {
+  position: relative;
+  width: auto;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+  background-color:  black;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  background-color: black;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color:black;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  background-color:black;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
 }

@@ -16,12 +16,16 @@ body {
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 120px;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30%;
 }
 
 .headerlogo {
+    top: 5px;
     position: fixed;
-    zoom: 0.239;
+    zoom: 0.214;
     left: 20%;
 }
 
@@ -34,7 +38,7 @@ body {
     align-items: center;
         }
         ul{
-            width: 150px; /* Tamanho da lista principal */
+            width: 150px;
             /*margin: 0 auto;  Para centralizar na página */
             margin-left: auto;
             list-style: none;    
@@ -97,10 +101,10 @@ body {
 }
 
 .headersobre {
+    width: 150px;
     color: #FFFFFF;
     font-family: 'Raleway';
     font-size: xx-large;
-    width: 150px;
     text-align: center;
 }
 
@@ -116,8 +120,8 @@ body {
 .headersuporte {
     font-family: 'Raleway';
     font-size: xx-large;
-    width: 150px;
     text-align: center;
+    justify-content: center;
 }
 
 .headersuporte a {
@@ -190,6 +194,9 @@ body {
 }
 
 .headerbarra3 {
+    right: 20%;
+    position: fixed;
+    top: 5px;
     height: 35px;
     align-content: center;
 }
@@ -206,9 +213,6 @@ body {
 .headerbarra a:hover {
     text-decoration: underline; 
 }
-
-
-
 
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -301,6 +305,7 @@ a {
 
 #preco:hover {
     zoom: 1.2;
+    cursor: pointer;
     transition: zoom 0.75;
 }
 
@@ -312,7 +317,7 @@ a {
 .footer {
   position: relative;
   width: auto;
-  background: hsl(119, 83%, 37%);
+  background: black;
   min-height: 100px;
   padding: 20px 50px;
   justify-content: center;
@@ -337,13 +342,13 @@ a {
 .social-icon__item,
 .menu__item {
   list-style: none;
-  background-color:  hsl(119, 83%, 37%);
+  background-color:  black;
 }
 
 .social-icon__link {
   font-size: 2rem;
   color: #fff;
-  background-color: hsl(119, 83%, 37%);
+  background-color: black;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -355,7 +360,7 @@ a {
 .menu__link {
   font-size: 1.2rem;
   color: #fff;
-  background-color:hsl(119, 83%, 37%);
+  background-color:black;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -371,7 +376,7 @@ a {
 .footer p {
   text-align: center;
   color: #fff;
-  background-color:hsl(119, 83%, 37%);
+  background-color:black;
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;

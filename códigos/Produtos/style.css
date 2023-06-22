@@ -4,7 +4,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, #7AFD80 100%);
+    background: linear-gradient(180deg, #FFFFFF 5%, #7AFD80 95%);
 }
 
 /*--------------------------------------------HEADER----------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -15,12 +15,16 @@ body {
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 120px;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30%;
 }
 
 .headerlogo {
+    top: 5px;
     position: fixed;
-    zoom: 0.239;
+    zoom: 0.214;
     left: 20%;
 }
 
@@ -33,7 +37,7 @@ body {
     align-items: center;
         }
         ul{
-            width: 150px; /* Tamanho da lista principal */
+            width: 150px;
             /*margin: 0 auto;  Para centralizar na página */
             margin-left: auto;
             list-style: none;    
@@ -50,15 +54,12 @@ body {
         }
         ul li:hover > a{ /* Quando passarmos o mouse sobre a LI colocamos estilo no A */
             border-radius: 12px;
-            text-decoration: underline;
-            color:#008433;
+            color: white;
         }
 
         ul li ul{
             display: none;
-            position: fixed;
-            left: 520px;
-            top: 90px;
+            position: absolute;
         }
 
         ul li:hover ul{ /* Quando passar o mouse sobre a LI aparecerá o menu filho */
@@ -77,7 +78,7 @@ body {
         ul li ul li:hover > a{
             background-color: #04a243;
             border-radius: 12px;
-            color: white;
+            color: #FFFFFF;
             font-size: larger;
         }
         ul li ul li ul li{
@@ -99,10 +100,10 @@ body {
 }
 
 .headersobre {
+    width: 150px;
     color: #FFFFFF;
     font-family: 'Raleway';
     font-size: xx-large;
-    width: 150px;
     text-align: center;
 }
 
@@ -113,14 +114,13 @@ body {
 
 .headersobre :hover {
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .headersuporte {
     font-family: 'Raleway';
     font-size: xx-large;
-    width: 150px;
     text-align: center;
+    justify-content: center;
 }
 
 .headersuporte a {
@@ -130,7 +130,6 @@ body {
 
 .headersuporte :hover {
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .headerbarra2 {
@@ -152,10 +151,6 @@ body {
     margin-left: 10px;
     color: #FFFFFF;
     font-family: 'Raleway';
-}
-
-.headerlogin :hover {
-    text-decoration: underline;
 }
 
 .headercarrinho img {
@@ -183,8 +178,8 @@ body {
 .headercarrinho {
     display: flex;
     border-radius: 12px;
-    height: 30px;
     width: 140px;
+    height: 30px;
     margin-left: 60px;
     margin-top: 5px;
     background: linear-gradient(270deg, #2CBF67 0%, #174D2C 37.08%);
@@ -198,6 +193,9 @@ body {
 }
 
 .headerbarra3 {
+    right: 20%;
+    position: fixed;
+    top: 5px;
     height: 35px;
     align-content: center;
 }
@@ -210,6 +208,11 @@ body {
 .headerlogin a :hover {
     cursor: pointer;
 }
+
+.headerbarra a:hover {
+    text-decoration: underline; 
+}
+
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
 #titulo {
@@ -293,6 +296,7 @@ a {
 
 #preco:hover {
     zoom: 1.2;
+    cursor: pointer;
     transition: zoom 0.75;
 }
 
@@ -302,7 +306,7 @@ a {
 .footer {
   position: relative;
   width: auto;
-  background: hsl(119, 83%, 37%);
+  background: black;
   min-height: 100px;
   padding: 20px 50px;
   justify-content: center;
@@ -310,6 +314,7 @@ a {
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .social-icon,
@@ -327,13 +332,13 @@ a {
 .social-icon__item,
 .menu__item {
   list-style: none;
-  background-color:  hsl(119, 83%, 37%);
+  background-color:  black;
 }
 
 .social-icon__link {
   font-size: 2rem;
   color: #fff;
-  background-color: hsl(119, 83%, 37%);
+  background-color: black;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -345,7 +350,7 @@ a {
 .menu__link {
   font-size: 1.2rem;
   color: #fff;
-  background-color:hsl(119, 83%, 37%);
+  background-color:black;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -361,7 +366,7 @@ a {
 .footer p {
   text-align: center;
   color: #fff;
-  background-color:hsl(119, 83%, 37%);
+  background-color:black;
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;

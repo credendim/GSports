@@ -53,6 +53,7 @@ body {
   border: none;
   cursor: pointer;
   width: 100%;
+  border-radius: 10px;
 }
 
 .container button:hover {
@@ -63,7 +64,6 @@ body {
   align-items: center;
   margin-bottom: 5px;
   margin-left: 80px;
-
 
 .butao{
   align-items: center;
@@ -83,6 +83,10 @@ color: #ffffff;
   color: white;
 }
 
+a {
+  color: #ffffff;
+}
+
 input::placeholder {
-  color: rgb(0, 0, 0); /* Altere para a cor desejada */
+  color: #ffffff; /* Altere para a cor desejada */
 }
