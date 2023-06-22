@@ -224,6 +224,7 @@ body {
 }
 
 #ver-mais {
+    color: red;
     margin-top: -40px;
     text-decoration: underline;
 }
