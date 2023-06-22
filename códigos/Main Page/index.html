@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="shortcut icon" href="img/GSportsicon.png">
     <script src='main.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
     </style>
@@ -78,36 +79,41 @@
     <!-- Fim do header -->
     
     <!-- Barra de pesquisa -->
-
     <div class="pesquisa">
-        <a>O que deseja?</a>
+        <input type="text" placeholder="O que deseja?">
+        <!-- icone de pesquisa -->
+        <span class="material-symbols-outlined">search</span>
     </div>
-
     <!-- Fim da barra de pesquisa -->
 
     <!-- Baners -->
-    <div class="slider">
-        <div class="slides-container">
-          <div class="slide">
-            <!-- Primeira img -->
-            <img src="img/baner1.jpg" alt="Imagem 1">
-          </div>
-          <div class="slide">
-            <!-- segunda img -->
-            <img src="img/baner2.jpg" alt="Imagem 2">
-          </div>
-          <div class="slide">
-            <!-- terceira img -->
-            <img src="img/baner3.jpg" alt="Imagem 3">
-          </div>
+    <div class="banerTitulo">
+        <p>Produtos em destaque!</p>
+        <div class="slider">
+            <div class="slides-container">
+            <div class="slide">
+                <!-- Primeira img -->
+                <img src="img/baner1.jpg" alt="Imagem 1">  
+            </div>
+            <div class="slide">
+                <!-- segunda img -->
+                <img src="img/baner2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <!-- terceira img -->
+                <img src="img/baner3.jpg" alt="Imagem 3">
+            </div>
+            </div>
+            <div class="controls">
+            <button class="prev-button">&#8249;</button>
+            <button class="next-button">&#8250;</button>
+            </div>
         </div>
-        <div class="controls">
-          <button class="prev-button">&#8249;</button>
-          <button class="next-button">&#8250;</button>
-        </div>
-      </div>
+    </div>
     <script src="banner.js"></script>
-    
+    <!-- Fim da barra de pesquisa -->
+    <!-- inicio dos  -->
+
     <!-- inicio do footer -->
     <footer class="footer">
         <ul class="social-icon">

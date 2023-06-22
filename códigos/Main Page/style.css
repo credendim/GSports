@@ -15,8 +15,8 @@ body {
     height: 95px;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30%;
-    z-index: 2;
+    padding-right: 30%;  /* para manter o carrinho um pouco para direita */
+    z-index: 1;
 }
 
 .headerlogo {
@@ -213,8 +213,49 @@ body {
 /* -------------------------------------------FIM DO HEADER----------------------------------------------- */
 
 /* Barra de pesquisa */
+.pesquisa{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
 
-/* Baners */
+.pesquisa input {
+    position: fixed;
+    top: 105px;
+    border: none;
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    font-size: medium;
+    margin-left: 20px;  
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.pesquisa input:hover {
+    border: none;
+}
+
+.pesquisa :hover {
+    cursor: text;
+    color: black;
+}
+
+.material-symbols-outlined {
+    position: fixed;
+    top: 107px;
+    margin-left: 530px;
+    color: rgb(137, 137, 137);
+}
+
+/* ----------------------------------------------------Baners---------------------------------------------- */
+.banerTitulo p {
+    margin-top: 155px;
+    margin-left: 270px;
+}
+
 .slider {
     width: 1000px;
     height: 200px;
@@ -222,12 +263,11 @@ body {
     position: relative;
     align-content: center;
     margin: auto;
-    margin-top: 120px;
+    margin-top: -5;
     margin-bottom: 120px;
     border-radius: 10px;
-    z-index: 1;
   }
-  
+
   .slide {
     width: 1000px;
     height: 100%;
