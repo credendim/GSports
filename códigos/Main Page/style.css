@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 30%;  /* para manter o carrinho um pouco para direita */
-    z-index: 1;
+    z-index: 2;
 }
 
 .headerlogo {
@@ -221,21 +221,15 @@ body {
 }
 
 .pesquisa input {
-    position: fixed;
+    position: relative;
     top: 105px;
-    border: none;
     width: 500px;
     height: 30px;
     border-radius: 50px;
     background-color: #FFFFFF;
     font-size: medium;
-    margin-left: 20px;  
     padding-left: 10px;
     padding-right: 40px;
-}
-
-.pesquisa input:hover {
-    border: none;
 }
 
 .pesquisa :hover {
@@ -244,9 +238,9 @@ body {
 }
 
 .material-symbols-outlined {
-    position: fixed;
+    position: relative;
     top: 107px;
-    margin-left: 530px;
+    margin-left: -35px;
     color: rgb(137, 137, 137);
 }
 
@@ -263,7 +257,7 @@ body {
     position: relative;
     align-content: center;
     margin: auto;
-    margin-top: -5;
+    margin-top: 0;
     margin-bottom: 120px;
     border-radius: 10px;
   }
@@ -305,6 +299,95 @@ body {
   .next-button {
     right: 10px;
   }
+
+  /* --------------------------------------------------categorias-------------------------------------------- */
+.categorias {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.categoria1 {
+    background-image: url("img/categoria1.png");
+    display: flex;
+    background-size: cover;
+    border-radius: 17px;
+    width: 295px;
+    height: 295px;
+}
+
+.gradient1 {
+    width: 295px;
+    height: 295px;
+    border-radius: 17px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background: linear-gradient(0deg, #1F3FE4 0%, rgba(31, 63, 228, 0.00) 100%);
+}
+
+.categoria1 label {
+    font-family: "Raleway";
+    margin-bottom: 5px;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
+.categoria2 {
+    background-image: url("img/categorias2.png");
+    display: flex;
+    background-size: cover;
+    border-radius: 17px;
+    width: 295px;
+    height: 295px;
+}
+
+.gradient2 {
+    width: 295px;
+    height: 295px;
+    border-radius: 17px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.categoria2 label {
+    font-family: "Raleway";
+    margin-bottom: 5px;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
+.categoria3 {
+    background-image: url("img/categoria3.png");
+    display: flex;
+    background-size: cover;
+    border-radius: 17px;
+    width: 295px;
+    height: 295px;
+}
+
+.gradient3 {
+    width: 295px;
+    height: 295px;
+    border-radius: 17px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background: linear-gradient(360deg, #976400 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.categoria3 label {
+    font-family: "Raleway";
+    margin-bottom: 5px;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+
 /* -------------------------------------INICIO DO FOOTER ------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
@@ -349,6 +432,7 @@ body {
 }
 .social-icon__link:hover {
   transform: translateY(-10px);
+  color: #174D2C;
 }
 
 .menu__link {

@@ -356,6 +356,7 @@ a {
 }
 .social-icon__link:hover {
   transform: translateY(-10px);
+  color: #174D2C;
 }
 
 .menu__link {
