@@ -17,7 +17,6 @@ body {  font-family: Arial, sans-serif;
   justify-content: space-between;
   align-items: center;
   padding-right: 30%;
-  margin-bottom: 40px;
 }
 
 .headerlogo {
@@ -218,11 +217,19 @@ body {  font-family: Arial, sans-serif;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 50px;
 }
 
 .user-image {
+  margin-top: 100px;
   float: right;
-  margin-left: 20px;
+  margin-left: 40px;
+  width:90px;
+  height: auto;
+}
+
+.user-image img {
+  width: 130px;
 }
 
 .support-form {
@@ -267,6 +274,7 @@ body {  font-family: Arial, sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .footer {
+  height: 100%;
   position: relative;
   width: auto;
   background: black;
@@ -277,6 +285,7 @@ body {  font-family: Arial, sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .social-icon,
