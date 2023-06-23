@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+.header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 51%, rgba(154,153,167,0) 100%);
+    z-index: 1;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -28,14 +44,6 @@ body {
     align-items: center;
     overflow: hidden;
     transition: height .2s ease;
-}
-
-.wrapper img {
-    position: absolute;
-    left: 15px;
-    top: -5px;
-    height: 100px;
-    width: 100px;
 }
 
 .wrapper.active {
