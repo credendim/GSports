@@ -293,11 +293,12 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .footer {
-  position: relative;
-  width: auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
   background: black;
   min-height: 100px;
-  padding: 20px 50px;
+  padding: 20px 0px;
   justify-content: center;
   align-items: center;
   text-align: center;
