@@ -141,6 +141,8 @@ body {
 }
 
 .headerlogin{
+    display: flex;
+    justify-content: center;
     margin-top: 5px;
     margin-left: 40px;
 }
@@ -301,7 +303,13 @@ body {
   }
 
   /* --------------------------------------------------categorias-------------------------------------------- */
-.categorias {
+#categoriaTitulo {
+    position: absolute;
+    left: 15px;
+    top: -40px;
+}
+
+  .categorias {
     position: relative;
     width: 1000px;
     margin: 0 auto;

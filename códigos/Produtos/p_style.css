@@ -19,7 +19,8 @@ body {
     height: 95px;
     justify-content: space-between;
     align-items: center;
-    padding-right: 30%;
+    padding-right: 30%;  /* para manter o carrinho um pouco para direita */
+    z-index: 2;
 }
 
 .headerlogo {
@@ -144,6 +145,8 @@ body {
 }
 
 .headerlogin{
+    display: flex;
+    justify-content: center;
     margin-top: 5px;
     margin-left: 40px;
 }
@@ -213,7 +216,6 @@ body {
 .headerbarra a:hover {
     text-decoration: underline; 
 }
-
 /* Fim do header ------------------------------------------------------------------------------------------------------------------------------- */
 
 #titulo {
