@@ -412,6 +412,7 @@ body {
   flex-direction: column;
 }
 
+/*Usado para fornecer links para perfis de mídia social em um site ou aplicativo.*/
 .social-icon,
 .menu {
   position: relative;
@@ -424,12 +425,14 @@ body {
   padding: 0;
 }
 
+/*Um ícone de mídia social em CSS é um item que representa um link para um perfil de mídia social.*/
 .social-icon__item,
 .menu__item {
   list-style: none;
   background-color:  black;
 }
 
+/*Um link que leva a um perfil de mídia social e é representado por um ícone criado usando HTML e CSS.*/
 .social-icon__link {
   font-size: 2rem;
   color: #fff;
@@ -443,6 +446,7 @@ body {
   color: #174D2C;
 }
 
+/*O menu é um elemento muito importante em qualquer site, pois é por meio dele que os usuários visitam todas as páginas do site.*/
 .menu__link {
   font-size: 1.2rem;
   color: #fff;
@@ -459,6 +463,7 @@ body {
   opacity: 1;
 }
 
+/*Rodapé para o conteúdo de seção mais próxima ou para o elemento raiz de seção (ou seja, seu parente mais próximo).*/
 .footer p {
   text-align: center;
   color: #fff;
