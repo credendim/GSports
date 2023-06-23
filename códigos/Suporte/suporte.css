@@ -16,7 +16,8 @@ body {  font-family: Arial, sans-serif;
   height: 95px;
   justify-content: space-between;
   align-items: center;
-  padding-right: 30%;
+  padding-right: 30%;  /* para manter o carrinho um pouco para direita */
+  z-index: 2;
 }
 
 .headerlogo {
@@ -141,6 +142,8 @@ body {  font-family: Arial, sans-serif;
 }
 
 .headerlogin{
+  display: flex;
+  justify-content: center;
   margin-top: 5px;
   margin-left: 40px;
 }
@@ -210,7 +213,6 @@ body {  font-family: Arial, sans-serif;
 .headerbarra a:hover {
   text-decoration: underline; 
 }
-
 /* ________________________________________________________________________________________________________________ */
 
 .container {
